@@ -7,10 +7,10 @@ cm="$GIT_COMMITTER_EMAIL"
  
 if [ "$GIT_AUTHOR_NAME" = "old_author_name" ]
 then
-	an="new author name"
-	am="mew@author.email"
-	cn=an
-	cm=am
+	an="new_author_name"
+	am="me@author.email"
+	cn="$an"
+	cm="$am"
 fi
 
 export GIT_AUTHOR_NAME="$an"
